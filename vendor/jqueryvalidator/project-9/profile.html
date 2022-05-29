@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>OneComunity</title>
+
+
+    <!-- CSS FILES -->
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="./asset/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="header">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto align-items-center mb-2 mb-lg-0">
+                        <li class="nav_item">
+                            <a class="nav-link menu-item" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav-link menu-item nav_active" href="./profile.html">Profile</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav-link menu-item" href="./post.html">My Posts</a>
+                        </li>
+                        <li class="nav_item">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-primary" type="submit">Search</button>
+                            </form>
+                        </li>
+                        <li class="nav_item">
+                            <a class="button small-button button-red radius" href="#">Logout</a>
+
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- main content container -->
+
+    <div class="main-content">
+
+        <!-- page content -->
+
+        <div class="profile_area">
+            <row class="row align-items-center justify-content-between">
+                <div class="col-md-7">
+                    <div class="card mb-5 pb-5">
+                        <div class="card_img">
+                            <img src="./asset/img/usr.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="text-disabled">Software Engineering Student</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                              test
+                            </li>
+                            <li class="list-group-item">A second item</li>
+                            <li class="list-group-item">A third item</li>
+                            <li class="list-group-item"></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <button class="button btn-primary wid_120 edit_btn">Edit</button>
+                    <div class="card"> 
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                            <div class="d-flex justify-content-between"><span>An item</span><span class="badge bg-primary rounded-pill">10</span></div>
+                          </li>
+                          <li class="list-group-item">
+                            <div class="d-flex justify-content-between"><span>An item</span><span class="badge bg-primary rounded-pill">10</span></div>
+                          </li>
+                          <li class="list-group-item">
+                            <div class="d-flex justify-content-between"><span>An item</span><span class="badge bg-primary rounded-pill">10</span></div>
+                          </li>
+                        </ul>
+                      </div>
+                </div>
+            </row>
+        </div>
+        
+
+
+        <!-- footer -->
+
+        <footer>
+            <div class="footer_text">
+                <b>OneComunity</b>
+                <b>2022</b>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,229 @@
+
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+/* Buttons */
+.button{
+    padding: 7px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.wid_120{
+    width: 120px;
+}
+.small-button{
+    font-size: 12px;
+    padding: 5px 20px;
+}
+.radius{
+    border-radius: 50px;
+}
+.button-red{
+    background: red;
+    color: #fff;
+}
+.button-red:hover{
+    background: rgb(219, 7, 7);
+    cursor: pointer;
+    color: #fff;
+}
+.out-line-blue{
+    background: transparent;
+    color: #0d6efd;
+    border: 1px solid #0d6efd;
+}
+.out-line-blue:hover{
+    background: #0d6efd;
+    color: #fff;
+}
+
+
+/* header */
+.header{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    background: #f8f9fa;
+}
+
+/* nav bar */
+.nav_item{
+    margin-right: 20px;
+}
+.menu-item {
+    color: #444 !important;
+
+}
+.menu-item:hover{
+    font-weight: 600;
+    color: #000 !important;
+    text-decoration: underline;
+}
+.nav_active {
+    font-weight: 600;
+    color: #000 !important;
+    text-decoration: underline;
+}
+
+/* main content */
+
+.main-content{
+    width: 900px;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid #111;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+/* body areas*/
+.home_area{
+    padding: 5px;
+}
+.post_area {
+    padding: 20px 40px;
+}
+.profile_area{
+    padding: 15px;
+    position: relative;
+    
+}
+.text-disabled {
+    color: #909090;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.like_count {background: transparent;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    width: 30px;
+}
+/* cards with img */
+img{
+    border-radius: 100px;
+}
+.card_img {
+    height: 200px;
+    background: #a1a1a1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card_img img {
+    width: 170px;
+    border-radius: 100%;
+}
+.list-group-item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.badge{
+    line-height: normal;
+}
+
+
+.edit_btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.login_area {
+    width: 400px;
+    border: 1px solid;
+    margin: 100px auto;
+}
+
+
+
+/* footer */
+.footer_text {
+    background: #111;
+    padding: 15px 80px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* admin css */
+.page_title {
+    font-size: 20px !important;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #eee;
+    border-top: 1px solid #111;
+}
+.admin_header{
+    width: unset;
+}
+.categoris_area{
+    padding: 0px 20px;
+}
+.categories{
+    margin-bottom: 20px;
+}
+.table_area{
+    padding: 10px;
+}
+table.dataTable{
+    border-collapse:collapse !important;
+}
+/* input validation  */
+input.error {
+    border-color: red;
+}
+
+label.error {
+    color: red !important;
+}
+label#email-error {
+    width: 100%;
+}
+.text-white{
+    color: #fff;
+}
+
+
+/* Comment area */
+.comment_area , .comment_replay_area{
+    display: none;
+    background: #f5f0f0;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: ease .3s;
+    padding: 20px;
+}
+.comment_replay_area{
+    background: #e2e2e2;
+}
+
+.show_comment{
+    display: block;
+    margin-top: 20px;
+    transform: scaleY(1);
+}
+.comment_item{
+    width: 100%;
+    padding-top: 15px;
+    border-bottom: 1px solid rgb(160, 160, 160);
+}
+.my_post_page{
+    border-bottom: none;
+}
+.replay_comments{
+    padding-left: 40px;
+    margin-top: 10px;
+}
